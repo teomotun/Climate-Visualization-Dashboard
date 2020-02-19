@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temperature vs Latitude</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">... LATITUDE ...</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Plots
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="temp.html">Latitude - Temperature</a>
+                            </li>
+                            <li>
+                                <a href="humid.html">Latitude - Humidity</a>
+                            </li>
+                            <li>
+                                <a href="cloud.html">Latitude - Cloudiness</a>
+                            </li>
+                            <li>
+                                <a href="wind.html">Latitude - Wind Speed</a>
+                            </li>
+                            <li>
+                                <a href="worldtemp.html">World Temperature</a>
+                            </li>
+                            <li>
+                                <a href="worldhumid.html">World Humidity</a>
+                            </li>
+                            <li>
+                                <a href="worldcloud.html">World Cloudiness</a>
+                            </li>
+                            <li>
+                                <a href="worldwind.html">World Wind Speed</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="comparison.html">Comparison</a>
+                    </li>
+                    <li>
+                        <a href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="col-md-12">
+                <div class="sigline">
+                    <p>
+                        <a href="https://www.linkedin.com/in/toluwalashe-omotunde/">
+                            LinkedIn </a> |
+                        <a href="https://github.com/teomotun/">
+                            GitHub </a> |
+                        <a href="https://www.facebook.com/tolu.omotunde/">
+                            Facebook </a> |
+                        <a href="https://www.instagram.com/mr_thollu/">
+                            Instagram </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row row-grid">
+            
+            <div class="col-md-8">
+                <div class="box box-left">
+                <section id="intro">
+                    <h1>Temperature vs Latitude</h1>
+                    <hr>
+                    <figure>
+                                <a target="_blank" href="assets/TemperaturePlot.png">
+                                    <img id="viz-main" src="assets/TemperaturePlot.png" alt="Latitude vs. Temperature">
+                                </a>
+                    </figure>
+                    
+                    <section id="summary">
+                    <p>Temperature is a perfect curve along the line with the highest temperatures along the equator 
+                        and falling as you head North or South. So the closer to the equator you are, the warmer the temperature.
+                    </p>
+                    </section>
+
+                </section>
+                </div>
+            </div>
+        
+            
+            <div class="col-md-4">
+                <div class="box box-right">
+                    <h2>Visualizations</h2>
+                    <hr>
+            
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="temp.html">
+                                    <img id="landing-viz" src="assets/TemperaturePlot.png" alt="Latitude vs. Temperature">
+                                </a>
+                            </figure>
+                        </div>
+            
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="humid.html">
+                                    <img id="landing-viz" src="assets/HumidityPlot.png" alt="Latitude vs. Humidity">
+                                </a>
+                            </figure>
+                        </div>
+            
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="cloud.html">
+                                    <img id="landing-viz" src="assets/CloudinessPlot.png" alt="Latitude vs. Cloudiness">
+                                </a>
+                            </figure>
+                        </div>
+            
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="wind.html">
+                                    <img id="landing-viz" src="assets/WindSpeedPlot.png" alt="Latitude vs. Wind Speed">
+                                </a>
+                            </figure>
+                        </div>
+            
+                    </div>
+            
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="globaltemp.html">
+                                    <img id="landing-viz" src="assets/GlobalTempPlot.png" alt="World Temperature">
+                                </a>
+                            </figure>
+                        </div>
+            
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="globalhumid.html">
+                                    <img id="landing-viz" src="assets/GlobalHumidityPlot.png" alt="World Humidity">
+                                </a>
+                            </figure>
+                        </div>
+            
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="globalcloud.html">
+                                    <img id="landing-viz" src="assets/GlobalCloudinessPlot.png" alt="World Cloudiness">
+                                </a>
+                            </figure>
+                        </div>
+            
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="globalwind.html">
+                                    <img id="landing-viz" src="assets/GlobalWindPlot.png" alt="World Wind Speed">
+                                </a>
+                            </figure>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+                    
+            </div>
+        </div>
+        
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>      
+    </body>
+    </html>
