@@ -1,4 +1,4 @@
-# Bootstrap Web Design
+# Climate Visualization Dashboard
 - - -
 ![globaltemp](assets/GlobalTempPlot.png)
 ## Background
